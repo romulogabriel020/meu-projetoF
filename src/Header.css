@@ -1,0 +1,101 @@
+nav{
+    margin-top: 20px;
+    display: flex;
+    padding: 20px;
+    justify-content:flex-start;
+    margin-left:70px;
+    align-items: center;
+}
+
+input{
+    font-size: 18px;
+    width: 550px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: aliceblue;
+    margin-left: 30px;
+    padding-left: 20px;
+    
+}
+
+.div-container{
+    width: 500px;
+    height: 20px;
+    display: flex;
+    align-items:center;
+    justify-content:space-around;
+}
+.pesquisa{
+    height: 20px;
+    width: 30px;
+    position: relative;
+    right: 30px;
+    top: 2px;
+}
+
+.pesquisa:hover{
+    cursor: pointer;
+}
+
+.circulo{
+    background-color: #C92071;
+    position: relative;
+    right:27px;
+    bottom: 10px;
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+}
+.numero{
+    font-size: 13px;
+    position: relative;
+    left:5px;
+    top: 2px;
+    color:white;
+}
+
+.texto{
+    margin-left: 25px;
+    font-size: 17px;
+    color: #81204f;
+    font-weight:lighter;
+}
+
+.texto:hover{
+    cursor: pointer;
+}
+
+.botao{
+    font-size: 17px;
+    margin-right: 25px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    background-color: #C92071;
+    padding: 12px 35px;
+}
+
+.botao:hover{
+    background-color: #991956;
+    cursor: pointer;
+    padding:15px 38px;
+}
+
+.menu{
+    margin-left: 80px;
+    margin-top: 25px;
+    display: flex;
+    gap: 30px;
+}
+
+.menu a{
+    font-size: 20px ;
+    color: #C92071;
+    text-decoration: none;
+}
+
+.menu a:hover{
+    border-bottom: solid;
+    color: #991956;
+}

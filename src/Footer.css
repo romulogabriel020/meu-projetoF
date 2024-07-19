@@ -1,0 +1,95 @@
+footer{
+    height: 430px;
+    padding: 40px;
+    background-color: #1F1F1F;
+    border-bottom: 1px solid white;
+}
+
+.container{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-left: 55px;
+    gap: 25px;
+}
+
+.container-icons{
+    display: flex;
+    gap: 35px;
+}
+
+.informacoes{
+    color: white;
+    display: flex;
+    flex-direction:column;
+    gap: 20px;
+    align-items:center;
+    position: relative;
+    left: 30px;
+    bottom: 180px;
+}
+
+ul li{
+    display: flex;
+    list-style: none;
+    margin-left: 30px;
+}
+
+li{
+    margin-top: 15px;
+}
+
+.informacoes1{
+    color: white;
+    display: flex;
+    flex-direction:column;
+    gap: 19px;
+    align-items:center;
+    position: relative;
+    left: 270px;
+    bottom: 415px;
+}
+
+.u1{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding-right: 23px;
+}
+
+.informacoes2{
+    color: white;
+    display: flex;
+    flex-direction:column;
+    gap: 18px;
+    align-items:last baseline;
+    position: relative;
+    left: 350x;
+    bottom: 617px;
+}
+
+.u2{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    position: relative;
+    right: 30px;
+}
+
+.linha{
+    border: 1px solid rgba(255, 255, 255, 0.308);
+    margin-left: 55px;
+    margin-right: 35px;
+    position: relative;
+    bottom: 460px;
+}
+
+.reserva{
+    font-size: 14px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    position: relative;
+    bottom: 430px;
+
+}
